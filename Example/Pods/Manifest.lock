@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZMBase: fd983dec5b711376b1ef1edf37c6793fc4dd3fcc
+  ZMBase: 40cc339f58894a515a9380c703cfcdef7fa588e8
 
 PODFILE CHECKSUM: fb4eeec406de06ff1a286cbf0733cdd161e3a89b
 
