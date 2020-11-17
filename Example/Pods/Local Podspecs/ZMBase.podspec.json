@@ -1,0 +1,22 @@
+{
+  "name": "ZMBase",
+  "version": "0.1.0",
+  "summary": "A short description of ZMBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wangliang/ZMBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangliang": "wangliang@huatu.com"
+  },
+  "source": {
+    "git": "https://github.com/wangliang/ZMBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZMBase/Classes/**/*"
+}
