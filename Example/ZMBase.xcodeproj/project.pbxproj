@@ -60,13 +60,13 @@
 		6D87F459A180566DC750D6B6 /* Pods-ZMBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMBase_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZMBase_Example/Pods-ZMBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6EA5A14532A88C2534619D75 /* Pods_ZMBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		77B9CA42926A9461DF36FC3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		77B9CA42926A9461DF36FC3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4E4166506A410D9EEC240A6 /* Pods-ZMBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMBase_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZMBase_Tests/Pods-ZMBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D44616D8F4A2D12ABBC8D2E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D44616D8F4A2D12ABBC8D2E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DF38A07A7C5F82E0DBCF658A /* Pods-ZMBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMBase_Example.release.xcconfig"; path = "Target Support Files/Pods-ZMBase_Example/Pods-ZMBase_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E4BA98FE92731EA3082CE3D1 /* Pods-ZMBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMBase_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZMBase_Tests/Pods-ZMBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F1716CC5161B761612741151 /* ZMBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZMBase.podspec; path = ../ZMBase.podspec; sourceTree = "<group>"; };
+		F1716CC5161B761612741151 /* ZMBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZMBase.podspec; path = ../ZMBase.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				E4BA98FE92731EA3082CE3D1 /* Pods-ZMBase_Tests.debug.xcconfig */,
 				C4E4166506A410D9EEC240A6 /* Pods-ZMBase_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,6 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZMBase/ZMBase-Prefix.pch";
 				INFOPLIST_FILE = "ZMBase/ZMBase-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZMBase/ZMBase-Prefix.pch";
 				INFOPLIST_FILE = "ZMBase/ZMBase-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
