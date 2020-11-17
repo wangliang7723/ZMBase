@@ -19,6 +19,22 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    /**
+     cd /Users/wangxiao/Desktop/LibDemo
+     
+     pod lib create ZMBase
+     
+     pod repo add WLSpec https://github.com/wangliang7723/Specs.git
+     
+     Pod lib lint --allow-warnings
+     
+     Pod spec lint --allow-warnings
+     
+     pod repo push WLSpec ZMBase.podspec --allow-warnings
+     
+     
+     */
+
 }
 
 - (void)didReceiveMemoryWarning
